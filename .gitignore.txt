@@ -1,0 +1,39 @@
+# Byte-compiled / optimized / temporary files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+env/
+
+# Secret keys and sensitive information
+*.env
+*.env.*
+*.key
+*.pem
+
+# Local development settings
+*.sqlite3
+*.log
+*.pot
+*.po
+*.mo
+
+# Static files (if served from a separate location)
+/static/
+
+# Media files (user-uploaded content)
+/media/
+
+# Ignore any local configurations you might have
+local_settings.py
+
+# Ignore migrations, as they can be regenerated
+**/migrations/
+
+# Ignore IDE-specific files
+.vscode/
+.idea/
+*.sublime-*
